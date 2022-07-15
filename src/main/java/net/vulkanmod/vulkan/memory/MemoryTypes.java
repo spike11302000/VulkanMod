@@ -191,7 +191,6 @@ public class MemoryTypes {
                     return true;
                 }
             };
-            return;
         }
 
         for(int i = 0; i < Vulkan.memoryProperties.memoryTypeCount(); ++i) {
